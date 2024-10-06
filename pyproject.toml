@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "neural_networks_with_python"
+version = "1.0.0"
+description = ""
+authors = ["Josef-Maximilian Luge <josefluge@email.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+scipy = "^1.14.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+mypy = "^1.2.0"
+ruff = "^0.0.263"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
