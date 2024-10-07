@@ -1,20 +1,14 @@
 [tool.poetry]
-name = "neural_networks_with_python"
-version = "1.0.0"
-description = ""
-authors = ["Josef-Maximilian Luge <josefluge@email.com>"]
+name = "neural-networks-with-python"
+version = "0.1.0"
+description = "From the book Neuronale Netze programmieren mit Python"
+authors = ["Josef-Maximilian Luge <josefluge@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.12"
+jupyterlab = "^4.2.5"
 
-scipy = "^1.14.1"
-
-
-[tool.poetry.group.dev.dependencies]
-black = "^23.3.0"
-mypy = "^1.2.0"
-ruff = "^0.0.263"
 
 [build-system]
 requires = ["poetry-core"]
